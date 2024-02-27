@@ -1,0 +1,20 @@
+{
+    "folders": [
+        {
+            "path": "."
+        }
+    ],
+    "settings": {
+        "CRS.FileNamePattern": "<ObjectNameShort>.<ObjectTypeShortPascalCase>.al",
+        "CRS.FileNamePatternExtensions": "<ObjectNameShort>.<ObjectTypeShortPascalCase>.al",
+        "CRS.FileNamePatternPageCustomizations": "<ObjectNameShort>.<ObjectTypeShortPascalCase>.al",
+        "CRS.OnSaveAlFileAction": "Reorganize",
+        "al.codeAnalyzers": [
+            "${PerTenantExtensionCop}",
+            "${CodeCop}",
+            "${UICop}"
+          ],
+          "al.enableCodeAnalysis": true,
+          "al.enableCodeActions": true
+    }
+}
